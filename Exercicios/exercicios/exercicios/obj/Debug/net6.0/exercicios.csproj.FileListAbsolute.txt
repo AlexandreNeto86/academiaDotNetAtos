@@ -1,0 +1,15 @@
+C:\Users\aldne\source\repos\academiaDotNetAtos\Exercicios\exercicios\exercicios\bin\Debug\net6.0\exercicios.exe
+C:\Users\aldne\source\repos\academiaDotNetAtos\Exercicios\exercicios\exercicios\bin\Debug\net6.0\exercicios.deps.json
+C:\Users\aldne\source\repos\academiaDotNetAtos\Exercicios\exercicios\exercicios\bin\Debug\net6.0\exercicios.runtimeconfig.json
+C:\Users\aldne\source\repos\academiaDotNetAtos\Exercicios\exercicios\exercicios\bin\Debug\net6.0\exercicios.dll
+C:\Users\aldne\source\repos\academiaDotNetAtos\Exercicios\exercicios\exercicios\bin\Debug\net6.0\exercicios.pdb
+C:\Users\aldne\source\repos\academiaDotNetAtos\Exercicios\exercicios\exercicios\obj\Debug\net6.0\exercicios.csproj.AssemblyReference.cache
+C:\Users\aldne\source\repos\academiaDotNetAtos\Exercicios\exercicios\exercicios\obj\Debug\net6.0\exercicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aldne\source\repos\academiaDotNetAtos\Exercicios\exercicios\exercicios\obj\Debug\net6.0\exercicios.AssemblyInfoInputs.cache
+C:\Users\aldne\source\repos\academiaDotNetAtos\Exercicios\exercicios\exercicios\obj\Debug\net6.0\exercicios.AssemblyInfo.cs
+C:\Users\aldne\source\repos\academiaDotNetAtos\Exercicios\exercicios\exercicios\obj\Debug\net6.0\exercicios.csproj.CoreCompileInputs.cache
+C:\Users\aldne\source\repos\academiaDotNetAtos\Exercicios\exercicios\exercicios\obj\Debug\net6.0\exercicios.dll
+C:\Users\aldne\source\repos\academiaDotNetAtos\Exercicios\exercicios\exercicios\obj\Debug\net6.0\refint\exercicios.dll
+C:\Users\aldne\source\repos\academiaDotNetAtos\Exercicios\exercicios\exercicios\obj\Debug\net6.0\exercicios.pdb
+C:\Users\aldne\source\repos\academiaDotNetAtos\Exercicios\exercicios\exercicios\obj\Debug\net6.0\exercicios.genruntimeconfig.cache
+C:\Users\aldne\source\repos\academiaDotNetAtos\Exercicios\exercicios\exercicios\obj\Debug\net6.0\ref\exercicios.dll
