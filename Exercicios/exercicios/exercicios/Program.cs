@@ -73,6 +73,16 @@ namespace exercicios
             //vlrUnd2 = int.Parse(Console.ReadLine());
             //ipi2 = int.Parse(Console.ReadLine());
 
+            // REFAZER
+
+            //double totalA, totalB;
+            //totalA = (quantA * valorA);
+            //totalA = totalA + (totalA * (ipi / 100));
+            //totalB = quantB * valorB;
+            //totalB = totalB + (totalB * (ipi / 100));
+            //Console.WriteLine("Custo total dos parafusos A:" + totalA);
+            //Console.WriteLine("Custo total dos parafusos B:" + totalB);
+
             //Escreva um programa em C# e no Visual Studio que leia o número de um vendedor, o seu salário fixo, 
             //o total de vendas por ele efetuadas e o percentual que ganha sobre o total de vendas. 
             //Calcule o salário total do vendedor.Escreva o número do vendedor e o salário total do vendedor.
@@ -136,70 +146,140 @@ namespace exercicios
             //    Escreva um programa que receba o valor da quantia solicitada e retorne a distribuição das notas
             //    de acordo com o critério da “distribuição ótima”.
 
-            int valorSolicitado,notas;
-            
-
-            valorSolicitado = int.Parse(Console.ReadLine());
-
-            int n100 = valorSolicitado / 100;
-            int r100 = valorSolicitado % 100;
-
-            int n50 = r100 / 50;
-            int r50 = r100 % 50;
-
-            int n20 =  r50 / 20;
-            int r20 =  r50  % 20;
-
-            int n10 = r20 / 10;
-            int r10 = r20 % 10;
-
-            int n5 = r10 / 5;
-            int r5 = r10 % 5;
-
-            int n2 = r5 / 2;
-            int r2 = r5 % 2;
-
-            int n1 = r2;
-
-            if(n100 != 0){
-                Console.WriteLine( "Nota de R$100: " + n100);
-
-            }
-            if (n50 != 0)
-            {
-                Console.WriteLine("Nota de R$50: " + n50);  
-
-            }
-            if (n20 != 0)
-            {
-                Console.WriteLine("Nota de R$20: " + n20);
-
-            }
-            if (n10 != 0)
-            {
-                Console.WriteLine("Nota de R$10: " + n10);
-
-            }
-            if (n5 != 0)
-            {
-                Console.WriteLine("Nota de R$5: " + n5);
-
-            }
-            if (n2 != 0)
-            {
-                Console.WriteLine("Nota de R$2: " + n2);
-
-            }
-            if (n1 != 0)
-            {
-                Console.WriteLine("Nota de R$1: " + n1);
-
-            }
+            //int valorSolicitado,notas;
 
 
+            //valorSolicitado = int.Parse(Console.ReadLine());
+
+            //int n100 = valorSolicitado / 100;
+            //int r100 = valorSolicitado % 100;
+
+            //int n50 = r100 / 50;
+            //int r50 = r100 % 50;
+
+            //int n20 =  r50 / 20;
+            //int r20 =  r50  % 20;
+
+            //int n10 = r20 / 10;
+            //int r10 = r20 % 10;
+
+            //int n5 = r10 / 5;
+            //int r5 = r10 % 5;
+
+            //int n2 = r5 / 2;
+            //int r2 = r5 % 2;
+
+            //int n1 = r2;
+
+            //if(n100 != 0){
+            //    Console.WriteLine( "Nota de R$100: " + n100);
+
+            //}
+            //if (n50 != 0)
+            //{
+            //    Console.WriteLine("Nota de R$50: " + n50);  
+
+            //}
+            //if (n20 != 0)
+            //{
+            //    Console.WriteLine("Nota de R$20: " + n20);
+
+            //}
+            //if (n10 != 0)
+            //{
+            //    Console.WriteLine("Nota de R$10: " + n10);
+
+            //}
+            //if (n5 != 0)
+            //{
+            //    Console.WriteLine("Nota de R$5: " + n5);
+
+            //}
+            //if (n2 != 0)
+            //{
+            //    Console.WriteLine("Nota de R$2: " + n2);
+
+            //}
+            //if (n1 != 0)
+            //{
+            //    Console.WriteLine("Nota de R$1: " + n1);
+
+            //}
+
+            //11) Escreva um algoritmo para ler o número de eleitores de um município,
+            //o número de votos brancos, nulos e válidos. 
+            //Calcule e escreva o percentual que cada um  representa em relação ao total de eleitores.
+
+            //int eleitores, brancos, nulos, validos;
+
+            //eleitores =  int.Parse(Console.ReadLine());
+            //brancos = int.Parse(Console.ReadLine());
+            //nulos = int.Parse(Console.ReadLine());
+            //validos = int.Parse(Console.ReadLine());
+
+            //brancos = (brancos * 100) / eleitores;
+            //nulos = (nulos * 100) / eleitores;
+            //validos = (validos * 100) / eleitores;
+
+            //Console.WriteLine("Brancos: " + brancos + "% " + " Nulos: " +  nulos +  "% " + " Validos: " + validos +  "% ");
+
+            //}
+
+            //12) Um motorista de taxi deseja calcular o rendimento de seu carro na praça.Sabendo - se que o preço do combustível
+            //é de R$6,90, escreva um algoritmo para ler a marcação do odômetro(marcador de quilometragem)
+            //no início do dia, a marcação no final do dia, o número de litros de combustível gasto e o valor total(R$) recebido
+            // dos passageiros.Calcule e escreva a média do consumo em Km / l e o lucro líquido do dia.
+            //Fórmulas: Total quilometragem = marcação odômetro final do dia - marcação odômetro inicio do dia
+            //Média do consumo = Total quilometragem / quantidade de combustível gasto
+            //Lucro do dia = Valor total recebido - (quantidade de combustível gasto * 6,90)
+
+            //int odometroInicio, odometroFinal, combustivelGasto, totalKm, mediaConsumo;
+            //double valorTotal, lucro;
+
+            //Console.WriteLine("Insira o valor do odômetro no inicio do dia");
+            //odometroInicio = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Insira o valor do odômetro no final do dia");
+            //odometroFinal = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Insira o valor do combustível gasto");
+            //combustivelGasto = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Insira o valor total recebido");
+            //valorTotal = int.Parse(Console.ReadLine());
+
+            //totalKm = odometroFinal - odometroInicio;
+
+            //mediaConsumo = totalKm / combustivelGasto;
+
+            //lucro = valorTotal - (combustivelGasto * 6.90);
+
+            //Console.WriteLine("O lucro do dia é: R$" + lucro);
+
+            //13) Uma loja vende bicicletas com um acréscimo de 50 % sobre o preço de custo. Ela paga a cada vendedor 2 salários minimos, mais uma comissão de 15% sobre o
+            //    preço de custo de cada bicicleta vendida.Desenvolva um código que leia o valor do salário mínimo, o preço de custo de cada bicicleta e o número de bicicletas
+            //     vendidas pelo vendedor, calcule e mostre: o salário do empregado!
+
+            //double salarioMinimo, custoBike, salarioFinal, valorVenda, valorVendido;
+            //int quantBike;
+
+            //Console.WriteLine(" Qual o valor do salário mínimo? ");
+            //salarioMinimo = double.Parse(Console.ReadLine());
+
+            //Console.WriteLine( "Qual o custo da bike? ");
+            //custoBike = double.Parse(Console.ReadLine());
+
+            //Console.WriteLine(" Número de bikes vendida: ");
+            //quantBike = int.Parse(Console.ReadLine());
+
+            //valorVenda = custoBike * 1.50;
+            //valorVendido = valorVenda * quantBike;
+            //salarioFinal = (salarioMinimo * 2) + valorVendido * 0.15;
+
+            //Console.WriteLine("Seu salário é: R$" + salarioFinal);
 
 
-        }
+
 
 
 
@@ -208,26 +288,26 @@ namespace exercicios
 
             // exercio do triangulo
 
-            //int a, b, c;
-            //String tipoTriangulo;
-            //a = int.Parse(Console.ReadLine());
-            //b = int.Parse(Console.ReadLine());
-            //c = int.Parse(Console.ReadLine());
+                //int a, b, c;
+                //String tipoTriangulo;
+                //a = int.Parse(Console.ReadLine());
+                //b = int.Parse(Console.ReadLine());
+                //c = int.Parse(Console.ReadLine());
 
-            //if((a < b+c) && (b < a+c) && (c < b + a)) {
-            //    if (a == b && b == c) {
-            //        tipoTriangulo = "Equilátero";
-            //    }
-            //    else if (a==b || b==c || a==c) {
-            //        tipoTriangulo = "Isósceles";
+                //if((a < b+c) && (b < a+c) && (c < b + a)) {
+                //    if (a == b && b == c) {
+                //        tipoTriangulo = "Equilátero";
+                //    }
+                //    else if (a==b || b==c || a==c) {
+                //        tipoTriangulo = "Isósceles";
 
-            //    } 
-            //    else
-            //    {
-            //        tipoTriangulo = "Escaleno";
-            //    }
-            //    Console.WriteLine(tipoTriangulo);
-            //}
+                //    } 
+                //    else
+                //    {
+                //        tipoTriangulo = "Escaleno";
+                //    }
+                //    Console.WriteLine(tipoTriangulo);
+                //}
 
 
 
@@ -245,3 +325,4 @@ namespace exercicios
 
         }
     }
+}
